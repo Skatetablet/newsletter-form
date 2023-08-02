@@ -35,7 +35,7 @@ export const App = () => {
 
   return (
     <>
-        <div className="container hidden" id='container'>
+        <div className="container " id='container'>
             <div className="text">
                 <h1>Stay Updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -45,16 +45,16 @@ export const App = () => {
                     <li>And much more!</li>
                 </ul>
                 <form method="post" onSubmit={handleSubmit}>
-                    <input type="email" name="email" id="email" placeholder='email@company.com' value={data.email} onChange={handleChange}/>
+                    <input type="email" name="email" id="email" placeholder='email@company.com' value={data.email} onChange={handleChange} required/>
                     <button type='submit'>Subscribe to monthly newsletter</button>
                 </form>
             </div>
             <div className="img">
-                <img src={componentPhoto} alt="IMG PRUEBA" srcset="" />
+                <img src={componentPhoto} alt="IMG COMPONENT" srcset="" />
             </div>
             
         </div>
-        <div className="containerMsg " id='containerMsg'>
+        <div className="containerMsg hidden" id='containerMsg'>
             <img src={msgPhoto} alt="IMG SUCCESS" srcset="" />
             <h1>Thanks for suscribing!</h1>
             <p>A confirmation email has been sent to <strong>{data.email}</strong>. Please open it and click the button inside to confirm your suscriptionn</p>

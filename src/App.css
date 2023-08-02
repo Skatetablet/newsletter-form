@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.container {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border-radius: 2%;
+    box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+    -webkit-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+    -moz-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+  }
+
+  .containerMsg {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 550px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border-radius: 2%;
+    padding: 30px 30px 0px 30px;
+    box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+    -webkit-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+    -moz-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 16px;
+    color: hsl(234, 29%, 20%);
+    margin: 15px;
+    
+}
+p {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 15px;
+}
+
+ul.check {
+  list-style-image: url(assets/images/icon-list.png);
+}
+
+li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+input {
+    margin-top: 4px;
+    width: 95%;
+    height: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-color: hsl(231, 7%, 60%);
+    border-radius: 4px;
+    border-width: 1px;
+    border-style:solid ;
+}
+button {
+    height: 42px;
+    width: 101%;
+    border: 0px;
+    border-radius: 4px;
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+button:hover {
+    height: 42px;
+    width: 101%;
+    border: 0px;
+    border-radius: 4px;
+    background-color: hsl(4, 100%, 67%);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+strong {
+  color: hsl(234, 29%, 20%);
+}
+
+
+.hidden {
+    display: none;
+}
